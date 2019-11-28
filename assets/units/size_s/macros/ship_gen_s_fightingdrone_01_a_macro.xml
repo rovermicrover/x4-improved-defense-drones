@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+    <replace sel="//macros/macro[@name='ship_gen_s_fightingdrone_01_a_macro']/properties/hull/@max">1000</replace>
+    <replace sel="//macros/macro[@name='ship_gen_s_fightingdrone_01_a_macro']/properties/physics">
+        <physics mass="2.972">
+            <inertia pitch="0.421" yaw="0.421" roll="0.331" />
+            <drag forward="2.093" reverse="8.572" horizontal="3.181" vertical="3.181" pitch="2.485" yaw="2.485" roll="2.485" />
+        </physics>
+    </replace>
+    <add sel="//macros/macro[@name='ship_gen_s_fightingdrone_01_a_macro']/properties/loadouts/loadout[@id='default']/macros">
+        <shield macro="shield_par_s_standard_01_mk1_macro" path="../con_shield_01" optional="1" />
+    </add>
+</diff>
