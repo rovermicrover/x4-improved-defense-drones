@@ -2,7 +2,7 @@
 
 Buffs defense drones to be faster and more agile to try and catch up with their commanding ship. Also decreases their hull points but gives them shields to make up the difference.
 
-This should slightly increase their survivability, while making the need to have them dock after every fight so they don't get left behind no longer a thing. 
+This should slightly increase their survivability, while removing the need to have them dock after every fight because they wont get left behind no longer a thing.
 
 # What Is Modified?
 
